@@ -5,3 +5,7 @@
 	editor = edit-commit-message
 [sequence]
 	editor = nano
+[push]
+	# Match the default behavior of Git 2.0 (Ubuntu ships 1.9.1).
+	# With this, students only need to type `git push heroku`.
+	default = simple
